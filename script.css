@@ -1,0 +1,146 @@
+/* General Layout & Typography */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth dark mode transition */
+}
+
+h1 {
+  color: darkblue;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Profiles Section */
+.profile-gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.about-wrapper {
+  font-family: sans-serif;
+}
+
+.about-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Weekly Progress Section */
+.progress-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px solid #ccc;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0e0e0;
+}
+
+tr:hover {
+  background-color: #e9e9e9; /* Row highlight effect */
+}
+
+/* Footer / Lists Section */
+.info-section {
+  font-family: sans-serif;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.info-section-light {
+  font-family: sans-serif;
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+.list-title {
+  margin: 5px 0;
+}
+
+.clean-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.clean-list li {
+  margin-bottom: 8px;
+}
+
+/* Specific Social Icon Colors */
+.link-telegram { color: #0088cc; }
+.link-linkedin { color: #0077b5; }
+.link-facebook { color: #1877f2; }
+.link-youtube { color: #FF0000; }
+.link-tiktok { color: #010101; }
+
+/* JavaScript Features */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+}
+.dark-mode h1 {
+  color: #4da6ff;
+}
+.dark-mode .progress-box {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+.theme-btn {
+  padding: 8px 12px;
+  cursor: pointer;
+  background: darkblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
